@@ -1,11 +1,11 @@
-﻿int m = 5;
-int n = -142;
+﻿int m = 111;
+int n = 142;
 
 void PrintNumbers(int m, int n)
-{  int i=m;
-if(i>0){
-    System.Console.Write(i+" ");}
-if (i!=n){
+{  
+if(m>0){
+    System.Console.Write(m+" ");}
+if (m!=n){
     if(n>m)
     {
         PrintNumbers(m+1,n);
